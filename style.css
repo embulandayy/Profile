@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+font-family: 'Verdana'sans-serif;
+}
+body{
+    background-color: wheat;
+}
+.holy{
+  background-image: url(images/soc_bsit.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+.text-heading{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .text-heading1{
+    width: 150px;
+    height: 38px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 0px 0px 0px 30px;
+  }
+.header{
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+  }
+  .header1{
+    background-color: white;
+    padding: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+  }
+  .header{
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+  }
+  .nav_menu{
+    overflow: hidden;
+    background-color: maroon;
+  }
+  .nav_menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+  }
+  .nav_menu a:hover{
+    background-color:wheat;
+    color: rgb(12, 65, 12);
+  }
+  .columnB{
+    float:left;
+    width:40%;
+    padding: 10px;
+    text-align:center;
+    background-color:rgb(224, 217, 217);
+    font-size: xx-large;
+  }
+  .columnA{
+    float:left;
+    width: 20%;
+    padding:10px;
+    text-align:center;
+    background-color:rgb(224, 217, 217);
+    font-size: xx-large;
+  }
+  .columnC{
+    float:left;
+    width:20%;
+    padding:10px;
+    text-align:center;
+    background-color:rgb(224, 217, 217);
+    font-size: xx-large;
+  }
+  .footer{
+    background-color: maroon;
+    clear: both;
+  }
+  .footer a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    overflow: hidden;
+    
+  }
+  .footer a:hover{
+    background-color:wheat;
+    color: rgb(12, 65, 12);
+  }
+.all{
+    padding-left: 18%;
+}
+.h2{
+  text-align:center;
+}
+td{
+  text-align: center;
+  font-weight: bold;
+}
+.em{
+float: left;  
+}
+.sitation{
+  color: black;
+  text-align: center;
+  font-size: larger;
+}
+.web{
+  font-size: x-large;
+  color: black;
+}
+.b,.contacts,.email{
+  text-align: center;
+}
+.head{
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-heading1{
+  color:transparent;
+  text-align: center;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.column{
+  padding:10px;
+  text-align:center;
+  background-color:rgb(224, 217, 217);
+  font-size: larger;
+}
+.col{
+  padding:10px;
+  text-align:center;
+  background-color:rgb(224, 217, 217);
+  font-size: larger;
+}
+.last{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  background-color: #ffb3b3;
+  }
+  .full{
+  width: 80%;
+  display: inline-block;
+  margin:2%;
+  margin-left: 10%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border:15px solid orange;
+  border-radius: 5px;
+  margin-bottom: 8%;
+  margin-top: 8%;
+  }
+  .full h3{
+  font-size: 2rem;
+  display:block;
+  margin: 2%;
+  margin-bottom: 0;
+  }
+  .lt{
+  padding: 2%;
+  margin: 2%;
+  }
+  .rt{
+  padding: 2%;
+  margin: 2%;
+  }
+  .lt textarea{
+  width: 94%;
+  margin-left: 2.8%;
+  }
+  button{
+  margin: 2%;
+  }
+  .btn-primary{
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 5%;
+  }
+  .list-item{
+  margin-bottom: 2%;
+  list-style-type: none;
+  }
+  .list-item span{
+  margin-left: 10px;
+  font-size: 1.4rem;
+  }
+  .list-item a{
+  color: white;
+  display: inline-block;
+  }
+  .list-item a:hover{
+  text-decoration: underline;
+  }
+  .form-control{
+  background-color: black;
+  }
+       
+  @media screen and (min-width: 770px){
+  .full{
+      width: 70%;
+      margin-left: 15%;
+  }
+  .lt textarea{
+  width: 95%;
+  margin-left: 2.4%;
+  }
+  }
+       
+  @media screen and (min-width: 1100px){
+  .full{
+      width: 65%;
+      margin-left: 17%;
+      margin-top: 5%;
+  }
+  .lt{
+      width: 55%;
+      display: inline-block;
+      float: left;
+      margin-right: 0;
+  }
+  .rt{
+      width: 35%;
+      display: inline-block;
+      margin-left: 0;
+  }
+  .list-item{
+  margin-bottom: 10%;
+  }
+  .contact-list{
+      margin-top: 22%;
+      padding-right: 8%;
+  }
+  .fa-envelope, .gmail{
+      display: inline-block;
+      width: auto;
+  }
+  }
